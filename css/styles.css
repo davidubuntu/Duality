@@ -2,10 +2,15 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
 }
 
 #start-button{
     width: 100px;
     height: 20px;
+}
+
+body {
+    margin:0;
+    padding: 0;
 }
