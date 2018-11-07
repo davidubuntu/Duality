@@ -1,41 +1,86 @@
-@font-face{
+@font-face {
     font-family: 'Lato-Ligth';
     src: url(/fonts/Lato/Lato-Light.ttf)
 }
+
 body {
     font-family: Lato-Light;
 }
-#top-container{
-   position: absolute;
-   left: 0;
-   top:50px;
-   right: 0;
-   margin: 0 auto;
-   width: fit-content;
-   display: none;
+
+#top-container {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    right: 0;
+    margin: 0 auto;
+    width: fit-content;
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
 
 /* PRESENTATION INITIAL */
-#presentation{
-    /* display: none; */
+#presentation {
     position: absolute;
     left: 0;
-    top:100px;
+    top: 100px;
     right: 0;
     margin: 0 auto;
     width: fit-content;
     background-color: rgb(250, 250, 250);
 }
-#presentation img{
-    /* display: none; */
+
+#presentation img {
     width: 260px;
     height: 550px;
 }
-#startGame{
+
+#start-game {
     width: 100px;
     height: 20px;
 }
 
+/* CANVAS */
+/* GAME-OVER */
+#game-over {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    right: 0;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: rgb(250, 250, 250);
+}
+
+
+/* Animations */
+.fadeIn {
+    opacity: 1;
+    animation: fadein 1.0s ease-out;
+}
+
+.fadeOut {
+    opacity: 1;
+    animation: fadeout 1.0s ease-out;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
