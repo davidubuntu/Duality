@@ -1,10 +1,15 @@
 @font-face {
     font-family: 'Lato-Ligth';
-    src: url(/fonts/Lato/Lato-Light.ttf)
+    src: url(/fonts/Lato/Lato-Light.ttf);
+}
+@font-face{
+    font-family: 'Lato-Ligth';
+    src: url(/fonts/Lato/Lato-Light.ttf);
 }
 
 body {
     font-family: Lato-Light;
+    background-color: rgb(250, 250, 250);
 }
 
 /* Generic Elements */
@@ -32,6 +37,17 @@ button {
 
 h1 {
     font-size: 40px;
+    font-family: Lato-Bold;
+    letter-spacing: 10px;
+
+}
+
+#obstacle{
+    position: absolute;
+    top: 155px;
+    right: 12px;
+    width: 710px;
+    height: 580px;
 }
 
 /* PRESENTATION INITIAL */
@@ -60,12 +76,14 @@ h1 {
 #game-over {
     position: absolute;
     left: 0;
-    top: 100px;
+    top: 200px;
     right: 0;
     margin: 0 auto;
     width: fit-content;
     background-color: rgb(250, 250, 250);
+    margin: 20px;
 }
+
 
 
 /* Animations */
