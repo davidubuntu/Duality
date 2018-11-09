@@ -43,7 +43,7 @@ Javascript
 
 Techincal Challenge:
 The biggest challenge was to work with matrix in canvas and more specific to move all the balls and make bounce with laterals. 
-Other challenge was to work with times to hide and show diferent widows when loaded
+Other challenge was to work with times to hide and show diferent windows when loaded
 
 Future game improvements:
 - Make the game levels configurable
