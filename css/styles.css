@@ -45,7 +45,7 @@ h1 {
   height: 100%;
 }
 
-/* PRESENTATION INITIAL */
+/* PRESENTATION*/
 #presentation {
     position: absolute;
     left: 0;
@@ -69,7 +69,7 @@ h1 {
 button {
     outline: none
 }
-/* CANVAS */
+
 /* GAME-OVER */
 #game-over {
     position: absolute;
