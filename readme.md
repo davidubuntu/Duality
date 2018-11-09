@@ -4,13 +4,13 @@ Duality
 Ironhack Web-Development 2018
 David Díez
 
-Description of the game:
+#Description of the game:
 
 The style of the game is visual capacity
 The game draws two balls boards.The right board is the computer board and shows different black balls in a random position. The left board is the player board
 The challenge of the game is clicking on the player board to create the simetric shape that the computer board shows
 
-Leveling
+#Leveling
 
 Each correctly clicked simetric shape will pass through the next level. 
 There are 5 levels configurated.
@@ -20,7 +20,7 @@ There are 5 levels configurated.
 - Level 4: Board 5x4 moving balls
 - Level 5: Board 5x4 moving blinking balls
 
-Sequence of the game:
+#Sequence of the game:
 
 1. Presentation page with an animation of Duality
 2. The actual game play starts
