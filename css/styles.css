@@ -8,20 +8,29 @@
     src: url(/fonts/Lato/Lato-Light.ttf);
 }
 
+html{
+    height: 100vh;
+}
 body {
-    font-family: Lato-Light;
+    font-family: Lato-Light, sans-serif;
     background-color: rgb(250, 250, 250);
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 /* Generic Elements */
 /* #top-container,#canvas,#game-over-btn,#game-over,#obstacle,#endGame{
     display:none;
 } */
+#canvas{
+    margin: 0 auto;
+}
 
 #top-container {
     position: absolute;
     left: 0;
-    top: 50px;
+    top: 3rem;
     right: 0;
     margin: 0 auto;
     width: fit-content;
@@ -31,7 +40,6 @@ h1 {
     font-size: 40px;
     font-family: Lato-Bold;
     letter-spacing: 10px;
-
 }
 
 #obstacle {
