@@ -1,7 +1,6 @@
 Game link: https://davidubuntu.github.io/duality/
 
 Duality
-Ironhack Web-Development 2018
 David Díez
 
 Description of the game:
