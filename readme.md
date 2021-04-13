@@ -2,7 +2,7 @@ Game link: https://davidubuntu.github.io/duality/
 
 Duality
 David Díez
-Minimum screen size 1440px
+Screen 1440px
 
 Description of the game:
 
